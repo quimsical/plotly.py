@@ -11,7 +11,7 @@ ipython[all]==5.1.0
 ipywidgets==7.2.0
 ipykernel==4.8.2
 jupyter==1.0.0
-scipy==1.2.3
+scipy==1.10.0rc1
 shapely==1.7.0
 geopandas==0.3.0
 pyshp==1.2.10
