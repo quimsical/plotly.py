@@ -36,3 +36,4 @@ nbconvert==5.6.1
 orjson
 dash-bio
 jinja2<3.1
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
