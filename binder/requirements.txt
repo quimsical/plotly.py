@@ -19,3 +19,4 @@ kaleido
 scikit-learn
 umap-learn
 wget
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
