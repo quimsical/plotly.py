@@ -55,3 +55,4 @@ shapely
 
 ## image uri conversion
 pillow
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
