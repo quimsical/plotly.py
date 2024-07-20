@@ -1,17 +1,17 @@
 requests==2.12.4
 tenacity==6.2.0
 pandas==0.24.2
-numpy==1.19.5
+numpy==1.22.2
 xarray==0.10.9
 statsmodels==0.10.2
 pillow==5.2.0
 pytest==3.5.1
 pytz==2016.10
-ipython[all]==5.1.0
+ipython==8.10.0
 ipywidgets==7.2.0
 ipykernel==4.8.2
 jupyter==1.0.0
-scipy==1.2.3
+scipy==1.10.0rc1
 shapely==1.7.0
 geopandas==0.3.0
 pyshp==1.2.10
@@ -19,3 +19,10 @@ matplotlib==2.2.3
 scikit-image==0.14.4
 psutil==5.7.0
 kaleido
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+fiona>=1.10b2 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+prompt-toolkit>=3.0.13 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
