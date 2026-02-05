@@ -11,7 +11,7 @@ patsy==0.5.1
 numpy==1.19.5
 plotly-geo
 python-igraph
-geopandas==0.8.1
+geopandas==1.1.2
 pyshp==2.1.2
 shapely==1.7.1
 psutil
@@ -32,7 +32,8 @@ kaleido
 umap-learn==0.5.1
 pooch
 wget
-nbconvert==5.6.1
+nbconvert==7.17.0
 orjson
 dash-bio
 jinja2<3.1
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
